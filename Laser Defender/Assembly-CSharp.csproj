@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Spripts\Player.cs" />
+    <Compile Include="Assets\Spripts\Shredder.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Space Shooter Visual Assets\license.txt" />
