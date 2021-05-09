@@ -7,9 +7,8 @@ public class EnemyPathing : MonoBehaviour
     // Type of the list is "Transform" because the only thing we need
     // from the waypoints is the position
 
-    [SerializeField] WaveConfig waveConfig;
-    List<Transform> waypoints;
-    [SerializeField] float moveSpeed = 2f;
+    WaveConfig waveConfig;
+    List<Transform> waypoints; // Waypoints for the enemy to follow
     int waypointIndex = 0; // Which way point am I currently working towards
 
     // Start is called before the first frame update
@@ -25,17 +24,22 @@ public class EnemyPathing : MonoBehaviour
         Move();
     }
 
+    public void SetWaveConfig(WaveConfig waveConfig)
+    {
+        this.waveConfig = waveConfig;
+    }
+
     private void Move()
     {
         if (waypointIndex <= waypoints.Count - 1)
         {
             var targetPosition = waypoints[waypointIndex].transform.position; // Where we want to go
-            var movementThisFrame = moveSpeed * Time.deltaTime; // How fast we move
+            var movementThisFrame = waveConfig.GetMoveSpeed() * Time.deltaTime; // How fast we move
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementThisFrame);
 
             if (transform.position == targetPosition)
             {
-                waypointIndex++;
+                waypointIndex++; // If we have reached the desired waypoint, move to the next one
             }
         }
         else
