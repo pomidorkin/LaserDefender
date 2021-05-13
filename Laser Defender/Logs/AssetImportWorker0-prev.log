@@ -15,11 +15,11 @@ C:/Users/pbriu/Documents/Laser Defender/Laser Defender
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54275
+56292
 Successfully changed project path to: C:/Users/pbriu/Documents/Laser Defender/Laser Defender
 C:/Users/pbriu/Documents/Laser Defender/Laser Defender
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1233 +35,1105 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001890 seconds.
+Registered in 0.001608 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.129 seconds
+- Completed reload, in  0.869 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000812 seconds.
+Registered in 0.000711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.739 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.2 MB.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 3.469100 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.784700 ms  DeleteObjects: 0.287900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Enemy 2.prefab
-  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f62572600521611079ad1d19c4e1538') in 0.097422 seconds
-  Import took 0.100448 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 2.262700 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.248000 ms MarkObjects: 1.657600 ms  DeleteObjects: 0.103300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef084da906444e4a0f82e2af8fb44a2') in 0.018021 seconds
-  Import took 0.020871 seconds .
+  path: Assets/VFX
+  artifactKey: Guid(8c20611054989bd4d9c77885c21c9d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX using Guid(8c20611054989bd4d9c77885c21c9d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca5f236c4d92d755553cdc2575a5b3e') in 0.009762 seconds
+  Import took 0.012201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.504135 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ea103f696c4d6acb6f772ac04c28de') in 0.029403 seconds
-  Import took 0.032318 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000637 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.712 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
-Total: 1.940700 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.527500 ms  DeleteObjects: 0.078800 ms)
+  Time since last request: 56.855143 seconds.
+  path: Assets/VFX/Explosion.mat
+  artifactKey: Guid(66aecc72a056f074d94dee533cb26a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Explosion.mat using Guid(66aecc72a056f074d94dee533cb26a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba0a1e14c83691bca238cdbf0e5b3e') in 0.090763 seconds
+  Import took 0.094676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 292.668047 seconds.
-  path: Assets/Prefabs/Enemy 2.prefab
-  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2070b432f0ff47dc03f999823b2c4e68') in 0.076154 seconds
-  Import took 0.081787 seconds .
+  Time since last request: 63.819884 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam0.png
+  artifactKey: Guid(14919dea6b3d509449306f76246bafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam0.png using Guid(14919dea6b3d509449306f76246bafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9644ca54e82e669dd94891dfb992eab9') in 0.065146 seconds
+  Import took 0.068616 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec91190c5ccce79e97b8a2bcb3e202d') in 0.017355 seconds
-  Import took 0.020839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.279592 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue01.png
-  artifactKey: Guid(741ae55a04805fa4cbf5688dde08da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue01.png using Guid(741ae55a04805fa4cbf5688dde08da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d15c2511f64cbb23d865c318633e392') in 0.080625 seconds
-  Import took 0.083739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen05.png
-  artifactKey: Guid(686f6b71f42f2bd438c7bbd6b5d77981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen05.png using Guid(686f6b71f42f2bd438c7bbd6b5d77981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306aa5581f90a2771081e1ad40f02846') in 0.016313 seconds
-  Import took 0.018952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen08.png
-  artifactKey: Guid(4482403f8a3d8714a85ef88b834da716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen08.png using Guid(4482403f8a3d8714a85ef88b834da716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd801a949ce62caf7f9f6de645b29fc') in 0.019889 seconds
-  Import took 0.024540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen07.png
-  artifactKey: Guid(b8e906118974b5d4c8f72daf68ab74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen07.png using Guid(b8e906118974b5d4c8f72daf68ab74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2b268ccd7538b33c8548b905737e72') in 0.021850 seconds
-  Import took 0.024982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed15.png
-  artifactKey: Guid(7c31b3b001f10404ba45e9f7749103d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed15.png using Guid(7c31b3b001f10404ba45e9f7749103d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c76478fb76df69505b567842c73df77') in 0.020785 seconds
-  Import took 0.025116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers
-  artifactKey: Guid(9b321ef33fa28a446ac8963d9ca03f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers using Guid(9b321ef33fa28a446ac8963d9ca03f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ece3d0bb7e1cb310a94566a77fd0c37') in 0.006945 seconds
-  Import took 0.009937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed07.png
-  artifactKey: Guid(4fab656e526af084b8681175c019e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed07.png using Guid(4fab656e526af084b8681175c019e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b690556b3def66a3fbe9e4ab463dcb') in 0.017392 seconds
-  Import took 0.022429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed05.png
-  artifactKey: Guid(de91067670aa277478d25568cc261ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed05.png using Guid(de91067670aa277478d25568cc261ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a7462afb25d11e0c6b336fcaba372e') in 0.018579 seconds
-  Import took 0.022183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed08.png
-  artifactKey: Guid(916edffd25d7c974290238e1a0a0278a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed08.png using Guid(916edffd25d7c974290238e1a0a0278a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5765ac2d8b9218ed0826c91eda3e8e94') in 0.020217 seconds
-  Import took 0.023566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed11.png
-  artifactKey: Guid(411f8ae72e714654fafb3c0f88a725a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed11.png using Guid(411f8ae72e714654fafb3c0f88a725a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760623d94a2d9d615442f89793fbbd3b') in 0.018857 seconds
-  Import took 0.023828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue05.png
-  artifactKey: Guid(e63a240a13f38284a8cb830c43746c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue05.png using Guid(e63a240a13f38284a8cb830c43746c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9288089d92e4afc9d0c893518c7579de') in 0.022338 seconds
-  Import took 0.025431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue10.png
-  artifactKey: Guid(3d4513ce5dfb8a047be36041f8ce42ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue10.png using Guid(3d4513ce5dfb8a047be36041f8ce42ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f46e7d4e42ed2e943294e6aa7fcdc6') in 0.018242 seconds
-  Import took 0.022746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue06.png
-  artifactKey: Guid(76ab5250d7594e94dba2607710129b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue06.png using Guid(76ab5250d7594e94dba2607710129b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68219af11cae5730bf5d26494c22f3bf') in 0.026561 seconds
-  Import took 0.029235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue13.png
-  artifactKey: Guid(eac255920de81aa46a43053edac8b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue13.png using Guid(eac255920de81aa46a43053edac8b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bc3cfd44a641c4f3a17eaeaee9059c') in 0.015759 seconds
-  Import took 0.019086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue07.png
-  artifactKey: Guid(f987456c196cb0746aa0bbd66c3afebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue07.png using Guid(f987456c196cb0746aa0bbd66c3afebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5baf4160a818a5b8d57092a5c6c25f4') in 0.019450 seconds
-  Import took 0.022711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed04.png
-  artifactKey: Guid(976bd71012b6fbf41ad501379c239bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed04.png using Guid(976bd71012b6fbf41ad501379c239bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0976f457d7595fef474ce1e9e04de024') in 0.021217 seconds
-  Import took 0.025008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue03.png
-  artifactKey: Guid(ea72297833f2edc41998976f6e202dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue03.png using Guid(ea72297833f2edc41998976f6e202dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7a5861834abdca7e63e9c8255a25bb') in 0.011182 seconds
-  Import took 0.013696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen15.png
-  artifactKey: Guid(f27a3bf8bca9d0f4c8c81e55f66a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen15.png using Guid(f27a3bf8bca9d0f4c8c81e55f66a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3ab830bc3add1e1c8ae9729adaff0f') in 0.019380 seconds
-  Import took 0.021901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen14.png
-  artifactKey: Guid(9f7f9f6cecc27e04ea50ed87862e6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen14.png using Guid(9f7f9f6cecc27e04ea50ed87862e6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff0d4022e3743e5c37374ef9192e2f') in 0.018126 seconds
-  Import took 0.020843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue09.png
-  artifactKey: Guid(98347eb20ca77b44c8df02e559f718b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue09.png using Guid(98347eb20ca77b44c8df02e559f718b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62998eb82341599807f71866905194b') in 0.019620 seconds
-  Import took 0.022744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen09.png
-  artifactKey: Guid(11430536a144a4040b05985cf910352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen09.png using Guid(11430536a144a4040b05985cf910352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9cd9260f211fc14ef4509053e0ec67') in 0.017816 seconds
-  Import took 0.020752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed10.png
-  artifactKey: Guid(06469ab3dd3f1cb44903954ab4bc6499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed10.png using Guid(06469ab3dd3f1cb44903954ab4bc6499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83e0eb0b54ad203c963022187f04636') in 0.017727 seconds
-  Import took 0.020930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue08.png
-  artifactKey: Guid(ff98a494b9db0c64ea120b15d953077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue08.png using Guid(ff98a494b9db0c64ea120b15d953077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6076ad8fed5fa386f8bc1596bf2b7e') in 0.017665 seconds
-  Import took 0.020524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed01.png
-  artifactKey: Guid(76f194d56a05b9742bbc5a612b9160d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed01.png using Guid(76f194d56a05b9742bbc5a612b9160d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9242d198d14c6625844458be8cfee4b') in 0.017861 seconds
-  Import took 0.020685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed02.png
-  artifactKey: Guid(c96c0f1eb666b5c4eb0aae0ab69de33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed02.png using Guid(c96c0f1eb666b5c4eb0aae0ab69de33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba180cd4967c150a85570877953ee133') in 0.018434 seconds
-  Import took 0.021278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed06.png
-  artifactKey: Guid(c7acc88a159e4bc4095ba4ff1bac865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed06.png using Guid(c7acc88a159e4bc4095ba4ff1bac865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7dc39e89f594980f284347c7364437') in 0.017435 seconds
-  Import took 0.020288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen02.png
-  artifactKey: Guid(67ecd7e1876f91e469f6f80b8bf2aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen02.png using Guid(67ecd7e1876f91e469f6f80b8bf2aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545fff011b1149f7456f58c80c1476f6') in 0.019050 seconds
-  Import took 0.022127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue04.png
-  artifactKey: Guid(0fa7aaa973eaa14469665206f7744364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue04.png using Guid(0fa7aaa973eaa14469665206f7744364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb19b52921d13824db757fc2af69bd7') in 0.018001 seconds
-  Import took 0.021398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen01.png
-  artifactKey: Guid(aa1e6a162f0f42547b1283e262d78708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen01.png using Guid(aa1e6a162f0f42547b1283e262d78708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7573454d3e740df698e6366b49ca1607') in 0.020574 seconds
-  Import took 0.024510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen06.png
-  artifactKey: Guid(f0dcca2e0f7c2e44990cb42049738893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen06.png using Guid(f0dcca2e0f7c2e44990cb42049738893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97090fd86f2e473ea5cc3401cd30e0a2') in 0.017478 seconds
-  Import took 0.022080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen12.png
-  artifactKey: Guid(4c53aa11ee005894fb3cf3951ba6a45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen12.png using Guid(4c53aa11ee005894fb3cf3951ba6a45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ec25157f37bc51586c60e304564b83') in 0.016569 seconds
-  Import took 0.020104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue02.png
-  artifactKey: Guid(49b0482000a6add4984e49f4fa2dfb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue02.png using Guid(49b0482000a6add4984e49f4fa2dfb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3b25be3ee880ff5a5406991a78f3e9') in 0.020355 seconds
-  Import took 0.023735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen13.png
-  artifactKey: Guid(c4c04036693117c4c8f129f82afe0597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen13.png using Guid(c4c04036693117c4c8f129f82afe0597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666be9dfb00160857145adb0271e6972') in 0.019408 seconds
-  Import took 0.023136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue15.png
-  artifactKey: Guid(07a957188b027364c87112f34430cee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue15.png using Guid(07a957188b027364c87112f34430cee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001ca094fd485115d0e9f87502bd07d3') in 0.016997 seconds
-  Import took 0.022145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue14.png
-  artifactKey: Guid(37f26067036db2c4491eca71e0396d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue14.png using Guid(37f26067036db2c4491eca71e0396d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3990a1dd15af988c16e2ab174628b5') in 0.018501 seconds
-  Import took 0.021874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen03.png
-  artifactKey: Guid(f7b2df816d703e8479bd41c46da103ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen03.png using Guid(f7b2df816d703e8479bd41c46da103ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605424a79c82e114d778467a12212d8') in 0.021839 seconds
-  Import took 0.025552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed13.png
-  artifactKey: Guid(cfafa28b89fe9c542b65498578536663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed13.png using Guid(cfafa28b89fe9c542b65498578536663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2bf0fe0ad3d754f7b8001d9737e3c7') in 0.018770 seconds
-  Import took 0.021943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed16.png
-  artifactKey: Guid(db8668b3f50252c41857e6cda090d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed16.png using Guid(db8668b3f50252c41857e6cda090d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148de4a57fb572d027d87fe929280d7c') in 0.019955 seconds
-  Import took 0.022482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen10.png
-  artifactKey: Guid(4ddd139526e3ebe43a63aaa509681ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen10.png using Guid(4ddd139526e3ebe43a63aaa509681ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f70b94b18e60a8577da9190b2cea2db') in 0.017166 seconds
-  Import took 0.020743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue12.png
-  artifactKey: Guid(2c804bc48872a2842b981e3bfcdc5803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue12.png using Guid(2c804bc48872a2842b981e3bfcdc5803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf34450c2ba52dffa1761ae07f9ca9a0') in 0.017406 seconds
-  Import took 0.020416 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Space Shooter Visual Assets/PNG/Parts/beam1.png
+  artifactKey: Guid(3f4584c213388ea49802aa5817529bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/PNG/Parts/beam1.png using Guid(3f4584c213388ea49802aa5817529bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0723c3d15e8ce4df8bb6afa166d5acde') in 0.016882 seconds
+  Import took 0.019621 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000163 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue11.png
-  artifactKey: Guid(b66953ac210169a45a0d9ceb245df093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue11.png using Guid(b66953ac210169a45a0d9ceb245df093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df4e6486a804497571e9c51560a324c') in 0.017926 seconds
-  Import took 0.022010 seconds .
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam0.png
+  artifactKey: Guid(14919dea6b3d509449306f76246bafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam0.png using Guid(14919dea6b3d509449306f76246bafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9644ca54e82e669dd94891dfb992eab9') in 0.008120 seconds
+  Import took 0.012480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen04.png
-  artifactKey: Guid(1ca4661ed05cb0d4590bf45b67452ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen04.png using Guid(1ca4661ed05cb0d4590bf45b67452ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283f5483fe013bb705c3cb72d1142368') in 0.017664 seconds
-  Import took 0.022808 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam3.png
+  artifactKey: Guid(bd0fab853b2b4024fbbcfe540544dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam3.png using Guid(bd0fab853b2b4024fbbcfe540544dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4747f81ffcff985242d8b0f480adec2e') in 0.023657 seconds
+  Import took 0.028258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed12.png
-  artifactKey: Guid(2d2907a7c580bc946b94e836ce286a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed12.png using Guid(2d2907a7c580bc946b94e836ce286a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f769f92b68e5bd8c0811560b5ee45c96') in 0.017506 seconds
-  Import took 0.021164 seconds .
+  Time since last request: 0.000136 seconds.
+  path: Assets/Space Shooter Visual Assets/PNG/Parts/beam0.png
+  artifactKey: Guid(4429a1d639e5bbe4da0c87414baa73d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/PNG/Parts/beam0.png using Guid(4429a1d639e5bbe4da0c87414baa73d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e48567fc5ca7d5447aa5e48349d034') in 0.011669 seconds
+  Import took 0.014503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed14.png
-  artifactKey: Guid(6b7a96bc46acbe24698aea1bdae6e827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed14.png using Guid(6b7a96bc46acbe24698aea1bdae6e827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bd9881b05a989a4dc99e42deb01e47') in 0.020280 seconds
-  Import took 0.024364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed09.png
-  artifactKey: Guid(f01cdc2f6727ecd428406f5885aae60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed09.png using Guid(f01cdc2f6727ecd428406f5885aae60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c62951f6a648a2aef98e14f930cc08') in 0.017683 seconds
-  Import took 0.022694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed03.png
-  artifactKey: Guid(31f10830cb0fe2149a8e28ecc7b625f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserRed03.png using Guid(31f10830cb0fe2149a8e28ecc7b625f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3ab509d459879f4aff2110333b45db') in 0.017125 seconds
-  Import took 0.021077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue16.png
-  artifactKey: Guid(1666a4f14aa9e3b4d97bea8b6597939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserBlue16.png using Guid(1666a4f14aa9e3b4d97bea8b6597939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715b95cfc33fd75cad7cb5cad3e7cadb') in 0.017766 seconds
-  Import took 0.020725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen11.png
-  artifactKey: Guid(946f0e204fe021e4190ed975e3c0bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen11.png using Guid(946f0e204fe021e4190ed975e3c0bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412cbadf72099ce610372d69ee95ce60') in 0.017113 seconds
-  Import took 0.021311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen16.png
-  artifactKey: Guid(9a385547947b23e4899c79960fa75e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Lasers/laserGreen16.png using Guid(9a385547947b23e4899c79960fa75e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623e846167619d4a4edb9a520a10984') in 0.017058 seconds
-  Import took 0.020424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.529641 seconds.
-  path: Assets/Sprites/Enemy Laser.png
-  artifactKey: Guid(31f10830cb0fe2149a8e28ecc7b625f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy Laser.png using Guid(31f10830cb0fe2149a8e28ecc7b625f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f39d82db7567d6f087c31770536bb6e') in 0.017780 seconds
-  Import took 0.021220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.064165 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82083c3e84376e3bdab95bf3f1ed16d3') in 0.012072 seconds
-  Import took 0.016711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.439368 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3a6a3bee6bdd2144a88bed381ded0d') in 0.010151 seconds
-  Import took 0.013820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009029 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3a6a3bee6bdd2144a88bed381ded0d') in 0.007328 seconds
-  Import took 0.011225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.943594 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646c458aec697aea69b9fc10217747af') in 0.010212 seconds
-  Import took 0.013543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.076452 seconds.
-  path: Assets/Prefabs/Enemy 2.prefab
-  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9029d73086405e879cd375ff01b6d10e') in 0.010818 seconds
-  Import took 0.013837 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2297.
-Total: 1.849100 ms (FindLiveObjects: 0.269500 ms CreateObjectMapping: 0.103300 ms MarkObjects: 1.386800 ms  DeleteObjects: 0.088300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.454498 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b6edeb1c4c7e8be25f636226814e5a') in 0.051641 seconds
-  Import took 0.055145 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000693 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.748 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2302.
-Total: 2.374200 ms (FindLiveObjects: 0.387400 ms CreateObjectMapping: 0.209400 ms MarkObjects: 1.687000 ms  DeleteObjects: 0.088500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000696 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2306.
-Total: 1.921500 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.533500 ms  DeleteObjects: 0.127900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1723.871711 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big1.png
-  artifactKey: Guid(9ac35d58699fd1d46ac0d0590660f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big1.png using Guid(9ac35d58699fd1d46ac0d0590660f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e469a294c8e0e718e957ec5011ebe9fb') in 0.074567 seconds
-  Import took 0.078890 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/Space Shooter Visual Assets/PNG/Parts/beam3.png
+  artifactKey: Guid(b35a6cf5953555745bcee1656c9829c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/PNG/Parts/beam3.png using Guid(b35a6cf5953555745bcee1656c9829c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965fbbc147f62e132976252bc39182e1') in 0.012404 seconds
+  Import took 0.015764 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000170 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_small2.png
-  artifactKey: Guid(d5d4c606fae77d34ca0f1c7c108591e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_small2.png using Guid(d5d4c606fae77d34ca0f1c7c108591e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af05e6d40f0ae227fb8fbe14f28a42aa') in 0.043709 seconds
-  Import took 0.046724 seconds .
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam2.png
+  artifactKey: Guid(8211aa3fd20ef9d4b86076ac7599ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam2.png using Guid(8211aa3fd20ef9d4b86076ac7599ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5c3adb42e82412d5d30b0f03aac62d') in 0.018500 seconds
+  Import took 0.021748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_tiny1.png
-  artifactKey: Guid(15db58b479dab7b42a8f7c9c43c348d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_tiny1.png using Guid(15db58b479dab7b42a8f7c9c43c348d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbbe3ea657a49eb3eea6b0d0a0660d8') in 0.020972 seconds
-  Import took 0.024254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_tiny1.png
-  artifactKey: Guid(ca88f030f03c0a949a9eabeb3c77b3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_tiny1.png using Guid(ca88f030f03c0a949a9eabeb3c77b3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58285f18b3fda8dda77dbf33081250a5') in 0.016459 seconds
-  Import took 0.019759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_tiny2.png
-  artifactKey: Guid(8e9367fca4f6f1d4485907d70de37f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_tiny2.png using Guid(8e9367fca4f6f1d4485907d70de37f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce34b04b30ebf25669a4d066302bbdb2') in 0.020725 seconds
-  Import took 0.025020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big4.png
-  artifactKey: Guid(283e6c7f9ae04f041b296ea2f6aa5c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big4.png using Guid(283e6c7f9ae04f041b296ea2f6aa5c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f74d2f79ff40e49ff1fc413a19de34') in 0.020834 seconds
-  Import took 0.025175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_med1.png
-  artifactKey: Guid(c7075f845c49f6d42bfbe5be8c50649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_med1.png using Guid(c7075f845c49f6d42bfbe5be8c50649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb68e7a60635a2e48bb3ad34d283c4d') in 0.023445 seconds
-  Import took 0.026188 seconds .
+  Time since last request: 0.000394 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam1.png
+  artifactKey: Guid(73cc225b16bdacd4698121e89c8bd46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/PNG/Parts/beam1.png using Guid(73cc225b16bdacd4698121e89c8bd46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383f98ee508d1ed5eb87d0317fd50668') in 0.006143 seconds
+  Import took 0.009084 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000145 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_med2.png
-  artifactKey: Guid(307430cdcbd1fb04ca3d628184d997e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_med2.png using Guid(307430cdcbd1fb04ca3d628184d997e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd45185db56ebcf07942c199ac1f075e') in 0.017341 seconds
-  Import took 0.020594 seconds .
+  path: Assets/Space Shooter Visual Assets/PNG/Parts/beam2.png
+  artifactKey: Guid(a875ebaba4fe4de448602f59521e2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/PNG/Parts/beam2.png using Guid(a875ebaba4fe4de448602f59521e2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d92177514d8540f13f82c6abb81f8') in 0.006930 seconds
+  Import took 0.009976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_tiny2.png
-  artifactKey: Guid(a29bb3d9724e72c40854fe6cc4874599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_tiny2.png using Guid(a29bb3d9724e72c40854fe6cc4874599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9efae5032b17eccd66767719e1b2d7') in 0.017002 seconds
-  Import took 0.020150 seconds .
+  Time since last request: 163.816710 seconds.
+  path: Assets/Sprites/Materials/Space-Background-Tiled.mat
+  artifactKey: Guid(203ac6454548b6540a9d14a6947a189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials/Space-Background-Tiled.mat using Guid(203ac6454548b6540a9d14a6947a189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d0000328527b07473d2e4116c1bf0d') in 0.036429 seconds
+  Import took 0.040759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_small1.png
-  artifactKey: Guid(9e2d1b90a824b164abff712f7557db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_small1.png using Guid(9e2d1b90a824b164abff712f7557db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6af8c9a2e09144f39118c8ebd796a0') in 0.017881 seconds
-  Import took 0.022205 seconds .
+  Time since last request: 0.517094 seconds.
+  path: Assets/Space Shooter Visual Assets/Bonus/kenvector_future.ttf
+  artifactKey: Guid(fe26f02fac9b4e9448b9d97653335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/Bonus/kenvector_future.ttf using Guid(fe26f02fac9b4e9448b9d97653335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1dc8f32d0118b6ba3319ce3ef51688') in 0.034691 seconds
+  Import took 0.037923 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big4.png
-  artifactKey: Guid(838f2ccd54ecf0e4fb08e5daf6c8b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big4.png using Guid(838f2ccd54ecf0e4fb08e5daf6c8b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841501f5e1415687dee84a12e14e2941') in 0.016875 seconds
-  Import took 0.020550 seconds .
+  Time since last request: 0.000137 seconds.
+  path: Assets/Space Shooter Visual Assets/Bonus/kenvector_future_thin.ttf
+  artifactKey: Guid(eb6a9d3b417ca00418bbab6186f6bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/Bonus/kenvector_future_thin.ttf using Guid(eb6a9d3b417ca00418bbab6186f6bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d1a341f2c1d6e438cf23ad09a47f5') in 0.017850 seconds
+  Import took 0.021079 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big1.png
-  artifactKey: Guid(b96bdab895418aa47bb473ac86ae4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big1.png using Guid(b96bdab895418aa47bb473ac86ae4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fba6bba8fd308c60e031a9968790bcc') in 0.024873 seconds
-  Import took 0.027645 seconds .
+  Time since last request: 0.000150 seconds.
+  path: Assets/Space Shooter Visual Assets/Bonus/kenvector_future.ttf
+  artifactKey: Guid(fe26f02fac9b4e9448b9d97653335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Shooter Visual Assets/Bonus/kenvector_future.ttf using Guid(fe26f02fac9b4e9448b9d97653335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1dc8f32d0118b6ba3319ce3ef51688') in 0.009801 seconds
+  Import took 0.013481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_small2.png
-  artifactKey: Guid(ab476c25f70fb114986f106223d83b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_small2.png using Guid(ab476c25f70fb114986f106223d83b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf93878c47b002d570904c2332bc44e') in 0.017146 seconds
-  Import took 0.020773 seconds .
+  Time since last request: 0.863390 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/Bonus/kenvector_future.ttf
+  artifactKey: Guid(711693c08414e5b47813cb326b132413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/Bonus/kenvector_future.ttf using Guid(711693c08414e5b47813cb326b132413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3045e8b7fea0b3fda40a46b92dba41d9') in 0.025082 seconds
+  Import took 0.028679 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big2.png
-  artifactKey: Guid(2e80636f3e1ffc34ab5a8ab6388b8d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big2.png using Guid(2e80636f3e1ffc34ab5a8ab6388b8d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e026694d033dcc4748cc8beccab347d') in 0.019728 seconds
-  Import took 0.022755 seconds .
+  Time since last request: 0.000149 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/Bonus/kenvector_future_thin.ttf
+  artifactKey: Guid(3e5861ad2e78b664991e0f82d5be8a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/Bonus/kenvector_future_thin.ttf using Guid(3e5861ad2e78b664991e0f82d5be8a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5585bf0c454425b09bf230199fe8b3c2') in 0.014147 seconds
+  Import took 0.016865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big3.png
-  artifactKey: Guid(cc5b2064c69d0124f8d3fec37603ff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big3.png using Guid(cc5b2064c69d0124f8d3fec37603ff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e754960e0b1bed5cefc0b043c1be60b') in 0.018774 seconds
-  Import took 0.022336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big2.png
-  artifactKey: Guid(ee5f355b455b4e44cb8c645debc0cfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_big2.png using Guid(ee5f355b455b4e44cb8c645debc0cfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4a91744d8365cf04e4b18f95b40520') in 0.017565 seconds
-  Import took 0.021993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_med3.png
-  artifactKey: Guid(8747712c1ba46c94ca974c795ac96f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorBrown_med3.png using Guid(8747712c1ba46c94ca974c795ac96f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606868f645eb669efd778a0dc1babc87') in 0.017759 seconds
-  Import took 0.020397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_small1.png
-  artifactKey: Guid(ebca5a05cbc7a1d45b80243b0f9d19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_small1.png using Guid(ebca5a05cbc7a1d45b80243b0f9d19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f328bebfbf23a60b4654654997cecff') in 0.017951 seconds
-  Import took 0.021825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big3.png
-  artifactKey: Guid(baa3ddc7bb0907a4aa57043e079d526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_big3.png using Guid(baa3ddc7bb0907a4aa57043e079d526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118e9f0819f29521a7011760c86aa43b') in 0.017367 seconds
-  Import took 0.020374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_med1.png
-  artifactKey: Guid(ea5cc5578e2b90b4aacb34bd50c1f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Meteors/meteorGrey_med1.png using Guid(ea5cc5578e2b90b4aacb34bd50c1f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca27903147eb82aa856ab582959f603') in 0.016572 seconds
-  Import took 0.021013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.310853 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip1_damage1.png
-  artifactKey: Guid(bd17b385ee8a29649b2460bfec90e36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip1_damage1.png using Guid(bd17b385ee8a29649b2460bfec90e36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f80ae38c3988762bd3b3c31469cc85') in 0.027174 seconds
-  Import took 0.030339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip3_damage2.png
-  artifactKey: Guid(28b463799cce1b44a9f84368dd1c7526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip3_damage2.png using Guid(28b463799cce1b44a9f84368dd1c7526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b1ae8979ce4d8fc01323dafab09a1c') in 0.017532 seconds
-  Import took 0.020209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip1_damage3.png
-  artifactKey: Guid(5232d2b1b0d99574698f3878cd1418a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip1_damage3.png using Guid(5232d2b1b0d99574698f3878cd1418a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd7f52273fc0e8270c1ec4f04ac52e8') in 0.018346 seconds
-  Import took 0.021781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip2_damage2.png
-  artifactKey: Guid(193f53d5cbccf1941b125a8d7e89d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip2_damage2.png using Guid(193f53d5cbccf1941b125a8d7e89d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d83ba344041439a81494262ac252c7') in 0.020493 seconds
-  Import took 0.023928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip1_damage2.png
-  artifactKey: Guid(bf16d3bf906753a47a918ce0288dde05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip1_damage2.png using Guid(bf16d3bf906753a47a918ce0288dde05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed26704aa92c55e931c377aeb9ef6599') in 0.017823 seconds
-  Import took 0.021771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip2_damage1.png
-  artifactKey: Guid(35b58bf66121ec648a2949e8225db4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip2_damage1.png using Guid(35b58bf66121ec648a2949e8225db4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43459135a848739fabcd1a3d619a0ff') in 0.021056 seconds
-  Import took 0.024236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip2_damage3.png
-  artifactKey: Guid(e34182b4ae6a42443849e9d6a7273b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip2_damage3.png using Guid(e34182b4ae6a42443849e9d6a7273b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028b5cdc02f9260a9bf9d689c2f6ad42') in 0.017377 seconds
-  Import took 0.021588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip3_damage1.png
-  artifactKey: Guid(d192ce5be89b3034eb796c604c467717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip3_damage1.png using Guid(d192ce5be89b3034eb796c604c467717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7fa4979b8d70a11ef7c9655d808dd4') in 0.017098 seconds
-  Import took 0.020251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Space Shooter Visual Assets/PNG/Damage/playerShip3_damage3.png
-  artifactKey: Guid(e76beb06ddc4a8e40904a782dfc0e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Visual Assets/PNG/Damage/playerShip3_damage3.png using Guid(e76beb06ddc4a8e40904a782dfc0e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df4dd89943e27b920d099fa8b604864') in 0.018080 seconds
-  Import took 0.022556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.953765 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30350be7fbc04875a5c4acb139b7c0d6') in 0.033401 seconds
-  Import took 0.036262 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/Bonus/kenvector_future.ttf
+  artifactKey: Guid(711693c08414e5b47813cb326b132413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip/Space Shooter Visual Assets/Bonus/kenvector_future.ttf using Guid(711693c08414e5b47813cb326b132413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3045e8b7fea0b3fda40a46b92dba41d9') in 0.011358 seconds
+  Import took 0.014964 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000748 seconds.
+Registered in 0.000898 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.759 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2341.
-Total: 1.906800 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.088500 ms MarkObjects: 1.389800 ms  DeleteObjects: 0.109500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.392957 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cd263ccffc9085947bf987969c062d') in 0.050860 seconds
-  Import took 0.053646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.102971 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36064b9bc737f03136fa3a26df046a04') in 0.008330 seconds
-  Import took 0.011762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001277 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36064b9bc737f03136fa3a26df046a04') in 0.006645 seconds
-  Import took 0.009850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.471845 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621f14937a8dfc526475dcef45478a78') in 0.013021 seconds
-  Import took 0.016314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012278 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621f14937a8dfc526475dcef45478a78') in 0.007303 seconds
-  Import took 0.010369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.459631 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be302357c00a1ca0d0f7153f2690b28') in 0.012933 seconds
-  Import took 0.016562 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001239 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2346.
-Total: 2.233400 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.781600 ms  DeleteObjects: 0.102200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000773 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2350.
-Total: 5.551300 ms (FindLiveObjects: 0.679400 ms CreateObjectMapping: 0.238900 ms MarkObjects: 4.348000 ms  DeleteObjects: 0.280800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1123.164699 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412dcb57b31f49cb50955ec4e4cd9f98') in 0.024369 seconds
-  Import took 0.027705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.234292 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daee95e6a1f97126c661fd6afff9ccc') in 0.054094 seconds
-  Import took 0.057343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.881874 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e965a90db8f1edc4b13f25e653897d34') in 0.013027 seconds
-  Import took 0.016629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.627202 seconds.
-  path: Assets/Prefabs/Enemy 2.prefab
-  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b9bf90512eda472c2ed7ba52945b56') in 0.011617 seconds
-  Import took 0.014617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.656351 seconds.
-  path: Assets/Prefabs/Enemy Laser.prefab
-  artifactKey: Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Laser.prefab using Guid(7b9b150ffeea4db46b159b910686df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c7389bfdc9bb1a2835f0e0b4d6ab4c') in 0.014050 seconds
-  Import took 0.017598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.263242 seconds.
-  path: Assets/Prefabs/Player Laser.prefab
-  artifactKey: Guid(4ecf9729ca70bc24d93f60e98527f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player Laser.prefab using Guid(4ecf9729ca70bc24d93f60e98527f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0d078c5136853381822ec4653905d7') in 0.012977 seconds
-  Import took 0.016914 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 1.972500 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.064500 ms MarkObjects: 1.516800 ms  DeleteObjects: 0.142900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000710 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 2.679200 ms (FindLiveObjects: 0.514100 ms CreateObjectMapping: 0.205900 ms MarkObjects: 1.801400 ms  DeleteObjects: 0.156800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000691 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.719 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 4.849600 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.241200 ms MarkObjects: 3.922400 ms  DeleteObjects: 0.259900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1306.716269 seconds.
-  path: Assets/Sprites/Space-Background-Tiled.png
-  artifactKey: Guid(f67ba8adb56843e469cc15188535205c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Space-Background-Tiled.png using Guid(f67ba8adb56843e469cc15188535205c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b125848167f9a77eec7148ba357f9b73') in 0.057695 seconds
-  Import took 0.061011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.783989 seconds.
-  path: Assets/Prefabs/Background.prefab
-  artifactKey: Guid(7e1a17510d530ff48b6eef5cba685d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Background.prefab using Guid(7e1a17510d530ff48b6eef5cba685d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbd0eea49c58ed0d58b8a8cd3bb4045') in 0.058485 seconds
-  Import took 0.061564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006999 seconds.
-  path: Assets/Prefabs/Background.prefab
-  artifactKey: Guid(7e1a17510d530ff48b6eef5cba685d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Background.prefab using Guid(7e1a17510d530ff48b6eef5cba685d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbd0eea49c58ed0d58b8a8cd3bb4045') in 0.025077 seconds
-  Import took 0.029319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.783192 seconds.
-  path: Assets/Prefabs/Shredder.prefab
-  artifactKey: Guid(466d5fec10879874f97dc9e9204dae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shredder.prefab using Guid(466d5fec10879874f97dc9e9204dae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c6ffc41d8f688f071a6f43b300a3cb') in 0.007897 seconds
-  Import took 0.010731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Prefabs/Shredder.prefab
-  artifactKey: Guid(466d5fec10879874f97dc9e9204dae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shredder.prefab using Guid(466d5fec10879874f97dc9e9204dae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c6ffc41d8f688f071a6f43b300a3cb') in 0.002890 seconds
-  Import took 0.005500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.866542 seconds.
-  path: Assets/Prefabs/Enemy Spawner.prefab
-  artifactKey: Guid(6f36336f11e34f1428c2c76ee8b3d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Spawner.prefab using Guid(6f36336f11e34f1428c2c76ee8b3d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753e29b68c36d181e34613b26d43c51c') in 0.027984 seconds
-  Import took 0.030854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.288986 seconds.
-  path: Assets/Spripts/BackgroundScroller.cs
-  artifactKey: Guid(ac487517a5a56ae4586c1db6b5d929a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spripts/BackgroundScroller.cs using Guid(ac487517a5a56ae4586c1db6b5d929a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0a98c3212e87dadb09121aa078083') in 0.017542 seconds
-  Import took 0.023718 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.9 MB.
 System memory in use after: 88.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 5.323600 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.206500 ms MarkObjects: 4.424100 ms  DeleteObjects: 0.264200 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 2.216000 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.079100 ms MarkObjects: 1.689900 ms  DeleteObjects: 0.228800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 828.921830 seconds.
+  path: Assets/VFX/Explosion Particles.prefab
+  artifactKey: Guid(ba1ee4d9f071b4142bc16919853b0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Explosion Particles.prefab using Guid(ba1ee4d9f071b4142bc16919853b0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c29029e31f6d23eda79926b1f9b589') in 0.033888 seconds
+  Import took 0.037617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002167 seconds.
+  path: Assets/VFX/Explosion Particles.prefab
+  artifactKey: Guid(ba1ee4d9f071b4142bc16919853b0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Explosion Particles.prefab using Guid(ba1ee4d9f071b4142bc16919853b0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c29029e31f6d23eda79926b1f9b589') in 0.003485 seconds
+  Import took 0.006124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.337456 seconds.
+  path: Assets/VFX/Explosion Particles.prefab
+  artifactKey: Guid(ba1ee4d9f071b4142bc16919853b0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Explosion Particles.prefab using Guid(ba1ee4d9f071b4142bc16919853b0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a759fc629a7dd010d6a1639ccdbcb09b') in 0.005138 seconds
+  Import took 0.009004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.739707 seconds.
+  path: Assets/Spripts/Enemy.cs
+  artifactKey: Guid(505ebab8bb9af22469093630d04e5b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spripts/Enemy.cs using Guid(505ebab8bb9af22469093630d04e5b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f21ae228fdcf73f3f0688f02465ee3') in 0.065549 seconds
+  Import took 0.068486 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000798 seconds.
+Registered in 0.000756 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2375.
-Total: 5.728200 ms (FindLiveObjects: 0.534400 ms CreateObjectMapping: 0.425600 ms MarkObjects: 4.676600 ms  DeleteObjects: 0.089800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000874 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 4.778900 ms (FindLiveObjects: 0.521200 ms CreateObjectMapping: 0.228000 ms MarkObjects: 3.929000 ms  DeleteObjects: 0.097800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000745 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.710 seconds
+- Completed reload, in  0.789 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2383.
-Total: 3.407400 ms (FindLiveObjects: 0.926500 ms CreateObjectMapping: 0.171700 ms MarkObjects: 2.175400 ms  DeleteObjects: 0.132900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000721 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.640 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.0 MB.
 System memory in use after: 89.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2387.
-Total: 2.140200 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.709700 ms  DeleteObjects: 0.153800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 1.870600 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.426600 ms  DeleteObjects: 0.179100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.883124 seconds.
+  path: Assets/Spripts/Enemy.cs
+  artifactKey: Guid(505ebab8bb9af22469093630d04e5b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spripts/Enemy.cs using Guid(505ebab8bb9af22469093630d04e5b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2bb013abbd4f7bab584fac981bc86c') in 0.004568 seconds
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419138 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb409e12ac5601be331c625a9ef97df') in 0.051613 seconds
+  Import took 0.054596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d96b1b25c9103dd84f54189a4b40043') in 0.008139 seconds
+  Import took 0.011454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.115906 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08c48c229bc466df10ac980b82994ac') in 0.013938 seconds
+  Import took 0.017112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.266795 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7550f33bd2131eda4eef7f0e56c58fd') in 0.012949 seconds
+  Import took 0.015927 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 2.089200 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.734700 ms  DeleteObjects: 0.143600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 2.464200 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.145400 ms MarkObjects: 1.864000 ms  DeleteObjects: 0.110000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3492.712609 seconds.
+  path: Assets/3.2 Kenney Space Shooter Visual Assets.zip.zip
+  artifactKey: Guid(010b896f1798eb04cb6eadebbf4910a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.2 Kenney Space Shooter Visual Assets.zip.zip using Guid(010b896f1798eb04cb6eadebbf4910a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd40f6f19f0117bbda84c68672e2062') in 0.028647 seconds
+  Import took 0.032204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.483732 seconds.
+  path: Assets/3.3 Kenney Space Shooter Visual Assets.zip.zip
+  artifactKey: Guid(65bd435691668c2469daceb3bf2f7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.3 Kenney Space Shooter Visual Assets.zip.zip using Guid(65bd435691668c2469daceb3bf2f7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0d519ad6e19d2e7ad84e26d082c08c') in 0.010997 seconds
+  Import took 0.015858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.704599 seconds.
+  path: Assets/32.4 Mostly Kenney Audio.zip.zip
+  artifactKey: Guid(48b9f141e8c18c446a6a99eac9ea9aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.4 Mostly Kenney Audio.zip.zip using Guid(48b9f141e8c18c446a6a99eac9ea9aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b8416faf2199c21e4d4c801d11709e') in 0.009854 seconds
+  Import took 0.013386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.183767 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip.zip
+  artifactKey: Guid(0e996ae77d3b88143b4517c35c9d7ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip.zip using Guid(0e996ae77d3b88143b4517c35c9d7ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd233ab24dad37b081eb94d8fd24609') in 0.012079 seconds
+  Import took 0.016979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.397817 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip
+  artifactKey: Guid(88a34225a61deda45a1b027d475dd316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip using Guid(88a34225a61deda45a1b027d475dd316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b556926a990160ccb6506ec7d45951bb') in 0.005962 seconds
+  Import took 0.010183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.231654 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/Death Effect.ogg
+  artifactKey: Guid(89858f05fc75e414c9d36907c904f83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/Death Effect.ogg using Guid(89858f05fc75e414c9d36907c904f83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9597165e5d167132f5ea581f59fcb1') in 0.067817 seconds
+  Import took 0.070510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio
+  artifactKey: Guid(6e5394fb0ef14f94a8244b44d1d78852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio using Guid(6e5394fb0ef14f94a8244b44d1d78852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c802c0b359e4b407a5608baf642b99') in 0.004942 seconds
+  Import took 0.007460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser5.ogg
+  artifactKey: Guid(9f58f688809e7dc488ac12b1e5c4e826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser5.ogg using Guid(9f58f688809e7dc488ac12b1e5c4e826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc055afde9610086c3a47f86f09fe483') in 0.012777 seconds
+  Import took 0.016158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserDown1.ogg
+  artifactKey: Guid(91536e186a752c94cb229371308fa652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserDown1.ogg using Guid(91536e186a752c94cb229371308fa652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b99deadf7436cc5ee850008a8c14bc0') in 0.021136 seconds
+  Import took 0.025113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/Laser9 shortened.ogg
+  artifactKey: Guid(83626ed08a67e04479b52382bbc4463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/Laser9 shortened.ogg using Guid(83626ed08a67e04479b52382bbc4463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3615610de116f6f4d8633ea0ddbf2cc5') in 0.013004 seconds
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp5.ogg
+  artifactKey: Guid(bd9379b67e4010d4fa0bb420daaf48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp5.ogg using Guid(bd9379b67e4010d4fa0bb420daaf48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb43fcf7a487dc2cec9939ed0efca31') in 0.016640 seconds
+  Import took 0.019384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser9.ogg
+  artifactKey: Guid(f9df794b44617514fa3036ea56e48761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser9.ogg using Guid(f9df794b44617514fa3036ea56e48761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a565b417f9c5eb77dabb7983f70f600d') in 0.012814 seconds
+  Import took 0.015445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/lowDown.ogg
+  artifactKey: Guid(8c0c03151c12f3b4e82f7f8693f4cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/lowDown.ogg using Guid(8c0c03151c12f3b4e82f7f8693f4cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f112e9ed8c1bc6085889204c137dc0') in 0.016345 seconds
+  Import took 0.019825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser4.ogg
+  artifactKey: Guid(dacea8c79e841b44da1b9613ce665ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser4.ogg using Guid(dacea8c79e841b44da1b9613ce665ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c54e5fae6dd3199b2eaef75577a7dc5') in 0.017733 seconds
+  Import took 0.020923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp5.ogg
+  artifactKey: Guid(9fbc96f037ebd76478c218ec53da36b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp5.ogg using Guid(9fbc96f037ebd76478c218ec53da36b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51d9489000bab410bc0823b43182498') in 0.011156 seconds
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserDown3.ogg
+  artifactKey: Guid(a79c44f82908d3f4199b813b83b5ded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserDown3.ogg using Guid(a79c44f82908d3f4199b813b83b5ded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f374d539864146de052c2b7b19ce2') in 0.017102 seconds
+  Import took 0.020348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp11.ogg
+  artifactKey: Guid(41e7c15a55a0ff641ba27247d98c9f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp11.ogg using Guid(41e7c15a55a0ff641ba27247d98c9f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe673473f5d2788adc283b6332a2a53e') in 0.011198 seconds
+  Import took 0.014872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound3.ogg
+  artifactKey: Guid(1b7d2211b75aa22408ee092f4a1bef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound3.ogg using Guid(1b7d2211b75aa22408ee092f4a1bef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8ad427a6298cb1d04fc63f24d6c2c5') in 0.017581 seconds
+  Import took 0.025029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser2.ogg
+  artifactKey: Guid(2c2d1e1ddb4bee64a9e65e81e6147367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser2.ogg using Guid(2c2d1e1ddb4bee64a9e65e81e6147367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103eeea3cef6a64f2a151046cd89868b') in 0.012146 seconds
+  Import took 0.015640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser8.ogg
+  artifactKey: Guid(7ab45dffca36c9d4d8e367299990ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser8.ogg using Guid(7ab45dffca36c9d4d8e367299990ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042948561d7a9f8194e16f31ca858306') in 0.012812 seconds
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/lowRandom.ogg
+  artifactKey: Guid(819d86516cdaa9f4bafb38c0028cc15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/lowRandom.ogg using Guid(819d86516cdaa9f4bafb38c0028cc15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951ecc65bbabf746253b12cfc4d16967') in 0.013189 seconds
+  Import took 0.015817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/highDown.ogg
+  artifactKey: Guid(321953c9f4b7236478440fc6af737840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/highDown.ogg using Guid(321953c9f4b7236478440fc6af737840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6608496010d02c8c13ba593361fe1e13') in 0.012346 seconds
+  Import took 0.015544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/lowThreeTone.ogg
+  artifactKey: Guid(ad2a85789cd968144a4f125ff4f8da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/lowThreeTone.ogg using Guid(ad2a85789cd968144a4f125ff4f8da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645284f9c1d1cca5a037405a2f57a827') in 0.011762 seconds
+  Import took 0.015652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser1.ogg
+  artifactKey: Guid(e2276506fbb9be047be8a65e54d2e001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser1.ogg using Guid(e2276506fbb9be047be8a65e54d2e001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb017c00c881d11d263e14d3f19614b') in 0.013766 seconds
+  Import took 0.016480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser3.ogg
+  artifactKey: Guid(388fd00d56ad8c94fb7a3eca3dbeef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser3.ogg using Guid(388fd00d56ad8c94fb7a3eca3dbeef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a73c92a9b86356ce1f9784fa2fd263') in 0.010842 seconds
+  Import took 0.014420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser6.ogg
+  artifactKey: Guid(9a97c3e1ba073ab48897769a4e4a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser6.ogg using Guid(9a97c3e1ba073ab48897769a4e4a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e323e6f2723e01b624c6e9b191280e3') in 0.011065 seconds
+  Import took 0.016366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp1.ogg
+  artifactKey: Guid(1de10fd4b611c184c85c4e54eb1a4ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp1.ogg using Guid(1de10fd4b611c184c85c4e54eb1a4ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbf2037d8a92e28244a74ad648ce40b') in 0.014244 seconds
+  Import took 0.017286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp8.ogg
+  artifactKey: Guid(6317d162d3e5d6a41b3924c7c9bc0aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp8.ogg using Guid(6317d162d3e5d6a41b3924c7c9bc0aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c34a9bedb8f2efc9e126847a37a907') in 0.012516 seconds
+  Import took 0.017607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound2.ogg
+  artifactKey: Guid(bd044853345b82c4f886fdeded00c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound2.ogg using Guid(bd044853345b82c4f886fdeded00c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf4388df487e1b6a2ec7e67ffcd4e09') in 0.012592 seconds
+  Import took 0.015506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound4.ogg
+  artifactKey: Guid(6393b95bef525c14490ee6d16a245c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound4.ogg using Guid(6393b95bef525c14490ee6d16a245c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630577885113ae18a13ece62ae811331') in 0.012070 seconds
+  Import took 0.014764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump4.ogg
+  artifactKey: Guid(a3d8fb683095df743b5b85fda627bba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump4.ogg using Guid(a3d8fb683095df743b5b85fda627bba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30bfe895d1b22d6ce116320d6a1c751') in 0.011499 seconds
+  Import took 0.015888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserDown2.ogg
+  artifactKey: Guid(959bae306c34993488a28699434e2c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserDown2.ogg using Guid(959bae306c34993488a28699434e2c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b77754e3f6aec081dfc551d9f44041e') in 0.010575 seconds
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp1.ogg
+  artifactKey: Guid(097b27bfaf84eaf4b9dc53005fbe1636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp1.ogg using Guid(097b27bfaf84eaf4b9dc53005fbe1636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d75c3173f4baf4f1c726d2f81d00244') in 0.012149 seconds
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp7.ogg
+  artifactKey: Guid(c99dc8aee00be184997bea42512f1b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp7.ogg using Guid(c99dc8aee00be184997bea42512f1b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b06982b8e97d7b1421ae7d4934fc3de') in 0.010589 seconds
+  Import took 0.013728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp2.ogg
+  artifactKey: Guid(5926e74be046c0e418e05a8f681eee5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp2.ogg using Guid(5926e74be046c0e418e05a8f681eee5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e183b182efd6a40b7bdd6714c52b8a3') in 0.011160 seconds
+  Import took 0.014276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump1.ogg
+  artifactKey: Guid(79f45c20a254cfd409f445f95ab7770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump1.ogg using Guid(79f45c20a254cfd409f445f95ab7770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f06ebbe706c15c124064fe04fd07bc') in 0.012714 seconds
+  Import took 0.015530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp4.ogg
+  artifactKey: Guid(b35337ea118586c42bdc4dbc8ab75305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp4.ogg using Guid(b35337ea118586c42bdc4dbc8ab75305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21961bfb469650e78e26c39323cb8bf8') in 0.011719 seconds
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp3.ogg
+  artifactKey: Guid(6020ca015291c4f419ff049105a75ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp3.ogg using Guid(6020ca015291c4f419ff049105a75ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752e81b175a589af2f364416eb5cb0a1') in 0.014357 seconds
+  Import took 0.017277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/highUp.ogg
+  artifactKey: Guid(5d0e9920c60872042bf7f838e3a8b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/highUp.ogg using Guid(5d0e9920c60872042bf7f838e3a8b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d04dadee4894edf5d93309395ee0a1') in 0.018135 seconds
+  Import took 0.021151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound1.ogg
+  artifactKey: Guid(f9b2afe3beb1fdd47bc0da1d02e302d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound1.ogg using Guid(f9b2afe3beb1fdd47bc0da1d02e302d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b126bae5e75822f8535c18faa3cb4d6e') in 0.011306 seconds
+  Import took 0.015603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound5.ogg
+  artifactKey: Guid(9acbdb9e03ab17640a248d36a83d1409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/pepSound5.ogg using Guid(9acbdb9e03ab17640a248d36a83d1409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0719f6bdc50e5f7bfc03b593ccf2cce') in 0.012999 seconds
+  Import took 0.016608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump3.ogg
+  artifactKey: Guid(671c1f86763a10d4b839188f0c0090fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump3.ogg using Guid(671c1f86763a10d4b839188f0c0090fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e279aeeec979435fc4c3c26f83f267db') in 0.014976 seconds
+  Import took 0.018972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp4.ogg
+  artifactKey: Guid(2950e1ba1e3fd0f458178469a698212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp4.ogg using Guid(2950e1ba1e3fd0f458178469a698212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716d85a3229f550b12158161400f5e4a') in 0.013391 seconds
+  Import took 0.016216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp7.ogg
+  artifactKey: Guid(3253ffea6229ec343b2c6c34d3763571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp7.ogg using Guid(3253ffea6229ec343b2c6c34d3763571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1e7a209d29628f7b54d39a62b0c955') in 0.013659 seconds
+  Import took 0.018570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp12.ogg
+  artifactKey: Guid(5071abd79011fe048aa2868d0ea90849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp12.ogg using Guid(5071abd79011fe048aa2868d0ea90849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768cc41bc66a87fcf8dd1893af784d3f') in 0.013443 seconds
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/Laser1 shortened.ogg
+  artifactKey: Guid(8d5c30d19245a8e4a880c21c95219054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/Laser1 shortened.ogg using Guid(8d5c30d19245a8e4a880c21c95219054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b03a0d446b568de844f917f5ee0d65') in 0.014183 seconds
+  Import took 0.017640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp3.ogg
+  artifactKey: Guid(4e351057c3eff124cab6be27ca644d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp3.ogg using Guid(4e351057c3eff124cab6be27ca644d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefc80840b64e51fb872e3c89da2fda0') in 0.014680 seconds
+  Import took 0.017944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp9.ogg
+  artifactKey: Guid(e8d403f77395acf4ab84193c3e592713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp9.ogg using Guid(e8d403f77395acf4ab84193c3e592713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72d0514b16a2551a9f5f51e207f07b5') in 0.010945 seconds
+  Import took 0.014725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp10.ogg
+  artifactKey: Guid(2cbe2c065ee09aa48917edae71f835d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp10.ogg using Guid(2cbe2c065ee09aa48917edae71f835d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6789946320b8543f24895ccc45a8af') in 0.012239 seconds
+  Import took 0.014918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump5.ogg
+  artifactKey: Guid(2ec6a79df77e91a49b177f8c0868bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump5.ogg using Guid(2ec6a79df77e91a49b177f8c0868bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e06408df307c0d108b1d0e77dc331c') in 0.012294 seconds
+  Import took 0.015036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp6.ogg
+  artifactKey: Guid(9580ced099453df4d9f8273c9f13c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/powerUp6.ogg using Guid(9580ced099453df4d9f8273c9f13c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3ed98eeb56085a092e505ab7b566da') in 0.014000 seconds
+  Import took 0.018598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp2.ogg
+  artifactKey: Guid(751e424a53344514e8aab4f62943565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp2.ogg using Guid(751e424a53344514e8aab4f62943565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7f5978e2b2a89519b7746ad105fa43') in 0.017821 seconds
+  Import took 0.021445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp6.ogg
+  artifactKey: Guid(0684881ca5e85204b9e349a35dfe95a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaserUp6.ogg using Guid(0684881ca5e85204b9e349a35dfe95a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f24ec174f65da0e224b88112517fd40') in 0.016125 seconds
+  Import took 0.019291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump2.ogg
+  artifactKey: Guid(12a816a816ea4c44e8460c9cdede694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/phaseJump2.ogg using Guid(12a816a816ea4c44e8460c9cdede694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2042bfdd13f3cf82f85a9ec6ddd720') in 0.013256 seconds
+  Import took 0.016573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/laser7.ogg
+  artifactKey: Guid(13e113743a555924c9b821d66db41ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/laser7.ogg using Guid(13e113743a555924c9b821d66db41ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a78b5893005c706b6d1efafac4838f') in 0.012219 seconds
+  Import took 0.017498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.643566 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash1.ogg
+  artifactKey: Guid(a9259b8e97390414cbe03452727a6142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash1.ogg using Guid(a9259b8e97390414cbe03452727a6142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d7656d9452c334066124f4c8e1703') in 0.020490 seconds
+  Import took 0.023113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/zap1.ogg
+  artifactKey: Guid(ac088cc6ac3a3694984b058673b418d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/zap1.ogg using Guid(ac088cc6ac3a3694984b058673b418d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db10a1ab21912ce74a5c8f1a5fc6292b') in 0.010681 seconds
+  Import took 0.013663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash4.ogg
+  artifactKey: Guid(ea473e704d436ac4fb5e8250ae8460a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash4.ogg using Guid(ea473e704d436ac4fb5e8250ae8460a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5721eb8796dee6bdc1b388bfe95e1238') in 0.013282 seconds
+  Import took 0.016290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash3.ogg
+  artifactKey: Guid(599d86bb1e4fff14ebba8f5549a064ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash3.ogg using Guid(599d86bb1e4fff14ebba8f5549a064ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9839b95c42d961d63cb51c3526b6f632') in 0.016812 seconds
+  Import took 0.020740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/zapThreeToneUp.ogg
+  artifactKey: Guid(069aebf698c16244fa43e4a26e6abf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/zapThreeToneUp.ogg using Guid(069aebf698c16244fa43e4a26e6abf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707c2eb133ec6e8781f7ce1e7dc2f27d') in 0.011633 seconds
+  Import took 0.016656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash2.ogg
+  artifactKey: Guid(183ec23cb45226f43b5763b93476798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash2.ogg using Guid(183ec23cb45226f43b5763b93476798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ca99f283d2b14f251c3599d7055e17') in 0.014796 seconds
+  Import took 0.017648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/zapTwoTone.ogg
+  artifactKey: Guid(502ffeab70704994c91199d00b754ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/zapTwoTone.ogg using Guid(502ffeab70704994c91199d00b754ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df75ba0fe2a662bd6ca8843c7029b44') in 0.009762 seconds
+  Import took 0.012295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/twoTone1.ogg
+  artifactKey: Guid(e314eb75a9dad97488f0aa2d380a58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/twoTone1.ogg using Guid(e314eb75a9dad97488f0aa2d380a58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269b6fe5d70c6f6eb30950425181fbe1') in 0.016149 seconds
+  Import took 0.019180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/zap2.ogg
+  artifactKey: Guid(c32e0826496725a48a0b6dd89b7f9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/zap2.ogg using Guid(c32e0826496725a48a0b6dd89b7f9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac9f721f5d5793e15f5e37d59a6a954') in 0.013265 seconds
+  Import took 0.016561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash5.ogg
+  artifactKey: Guid(bce24114ccbd7ca4a809e342923863f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash5.ogg using Guid(bce24114ccbd7ca4a809e342923863f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202f8cc0951d6d43d6acc111b1c55a93') in 0.014389 seconds
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/twoTone2.ogg
+  artifactKey: Guid(d272f1727a206c740b7ccd361993a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/twoTone2.ogg using Guid(d272f1727a206c740b7ccd361993a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4e9091e5be133506de7e09d0bf7be0') in 0.010980 seconds
+  Import took 0.014215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/zapThreeToneDown.ogg
+  artifactKey: Guid(2499bfb66d3e2a24d93a47a690e49c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/zapThreeToneDown.ogg using Guid(2499bfb66d3e2a24d93a47a690e49c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e6df76b0a582d987ce35c868b8ee22') in 0.017166 seconds
+  Import took 0.019927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/zapTwoTone2.ogg
+  artifactKey: Guid(94d7391b38a6c344c91358dcb30b320d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/zapTwoTone2.ogg using Guid(94d7391b38a6c344c91358dcb30b320d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81be4590bd05173f2126ae704ee19bba') in 0.011891 seconds
+  Import took 0.014547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/threeTone1.ogg
+  artifactKey: Guid(6a3477ac156edd644b040ec42024f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/threeTone1.ogg using Guid(6a3477ac156edd644b040ec42024f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695aee7080d77ec4a449a4a4dce5b97b') in 0.010835 seconds
+  Import took 0.013556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/tone1.ogg
+  artifactKey: Guid(a4fec11aa3d893d468e75daa3de203e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/tone1.ogg using Guid(a4fec11aa3d893d468e75daa3de203e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d795edf55aaf7e287f854c1834dc2aa') in 0.014466 seconds
+  Import took 0.018706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash1.ogg
+  artifactKey: Guid(a9259b8e97390414cbe03452727a6142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/spaceTrash1.ogg using Guid(a9259b8e97390414cbe03452727a6142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d7656d9452c334066124f4c8e1703') in 0.008132 seconds
+  Import took 0.011536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/32.6 Mostly Kenney Audio.zip/Audio/threeTone2.ogg
+  artifactKey: Guid(468baf44e8a0665419e13fe12967c761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/32.6 Mostly Kenney Audio.zip/Audio/threeTone2.ogg using Guid(468baf44e8a0665419e13fe12967c761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2ebff6da19468d2b732378637ecb33') in 0.014193 seconds
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.215000 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.110500 ms MarkObjects: 1.630700 ms  DeleteObjects: 0.150000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 512.168370 seconds.
+  path: Assets/Paths/Path (0).prefab
+  artifactKey: Guid(d02caf7f8549ddb4aa4f2b75af5cef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paths/Path (0).prefab using Guid(d02caf7f8549ddb4aa4f2b75af5cef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ac35b6b79a9ee1a7f2d75a8c75528e') in 0.035507 seconds
+  Import took 0.038911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Paths/Path (1).prefab
+  artifactKey: Guid(10e09cdc5c2704a4fba8b8b29734ba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paths/Path (1).prefab using Guid(10e09cdc5c2704a4fba8b8b29734ba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b855b823c4195cde9addeb733c304702') in 0.008640 seconds
+  Import took 0.012015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.738406 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8ae77bcb0481a5d66b42e77ddd4cf4') in 0.042382 seconds
+  Import took 0.045753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc3525c302a9cd42ae23723fcbea6b7') in 0.014120 seconds
+  Import took 0.016962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.648555 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191799b3d1779d49c7e909701cd86850') in 0.012805 seconds
+  Import took 0.016083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.700221 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bdaa0ba40ed22528d75e26f443dd4c') in 0.014445 seconds
+  Import took 0.017316 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 4.973600 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.184900 ms MarkObjects: 4.122600 ms  DeleteObjects: 0.252800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 528.001018 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310c7adfb47b922b84bce0ecc768471d') in 0.064686 seconds
+  Import took 0.069861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.736057 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28ef65db757ec1f27ccc4e522e264e2') in 0.012400 seconds
+  Import took 0.015442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2167dc14069f108c4ae3bc592f31f68') in 0.018343 seconds
+  Import took 0.021685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.414075 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3062f1f1197d87d21066105cc42a7e0d') in 0.012101 seconds
+  Import took 0.015243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.121674 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2557f0e39b4f3eec5acce300f94969bc') in 0.009988 seconds
+  Import took 0.013630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.212177 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(a1b823f6fc0feb948bd939d1759ae7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39177d3105d65407be789f5049ae1a6') in 0.014660 seconds
+  Import took 0.017619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.539117 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b1f807cb3a84d894289cdc387a08791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1054eecb1d57a9c1c3eea368c1adef2') in 0.010278 seconds
+  Import took 0.014434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.635779 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89824e9e651ee1c81e62b7e2055eacc') in 0.009359 seconds
+  Import took 0.012554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.819147 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f081b5b94417a8ae14f788890826f8') in 0.010232 seconds
+  Import took 0.013522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.324868 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(f912cc3ad593260478da6d88ce2fe639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70af473c3cffba4c95da3573d41a50a') in 0.008292 seconds
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 1.823600 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.058700 ms MarkObjects: 1.488400 ms  DeleteObjects: 0.081900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
