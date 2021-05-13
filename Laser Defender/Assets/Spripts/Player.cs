@@ -10,11 +10,15 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
     [SerializeField] int health = 200;
+    [SerializeField] AudioClip deathSound;
+    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
 
     [Header("Projectile")]
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileFiringPeriod = 0.5f;
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
 
     Coroutine firingCoroutine;
 
@@ -52,8 +56,14 @@ public class Player : MonoBehaviour
         damageDealer.Hit(); // Destroying projectile
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+        AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
     }
 
     private void Fire()
@@ -80,6 +90,7 @@ public class Player : MonoBehaviour
                 as GameObject;
             // Manipulating the laser wee have instantiated. Giving some vertical speed.
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+            AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
             yield return new WaitForSeconds(projectileFiringPeriod);
         }
     }
