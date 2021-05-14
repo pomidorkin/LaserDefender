@@ -63,8 +63,11 @@
     <Compile Include="Assets\Spripts\WaveConfig.cs" />
     <Compile Include="Assets\Spripts\EnemyPathing.cs" />
     <Compile Include="Assets\Spripts\BackgroundScroller.cs" />
-    <Compile Include="Assets\Spripts\Shredder.cs" />
     <Compile Include="Assets\Spripts\Level.cs" />
+    <Compile Include="Assets\Spripts\Shredder.cs" />
+    <Compile Include="Assets\Spripts\MusicPlayer.cs" />
+    <Compile Include="Assets\Spripts\GameSession.cs" />
+    <Compile Include="Assets\Spripts\ScoreDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
