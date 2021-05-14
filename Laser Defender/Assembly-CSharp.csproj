@@ -56,18 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Spripts\MusicPlayer.cs" />
     <Compile Include="Assets\Spripts\Enemy.cs" />
     <Compile Include="Assets\Spripts\EnemySpawner.cs" />
     <Compile Include="Assets\Spripts\Player.cs" />
     <Compile Include="Assets\Spripts\DamageDealer.cs" />
+    <Compile Include="Assets\Spripts\GameSession.cs" />
     <Compile Include="Assets\Spripts\WaveConfig.cs" />
     <Compile Include="Assets\Spripts\EnemyPathing.cs" />
     <Compile Include="Assets\Spripts\BackgroundScroller.cs" />
     <Compile Include="Assets\Spripts\Level.cs" />
+    <Compile Include="Assets\Spripts\HealthDisplay.cs" />
     <Compile Include="Assets\Spripts\Shredder.cs" />
-    <Compile Include="Assets\Spripts\MusicPlayer.cs" />
-    <Compile Include="Assets\Spripts\GameSession.cs" />
     <Compile Include="Assets\Spripts\ScoreDisplay.cs" />
+    <Compile Include="Assets\Spripts\Spinner.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
